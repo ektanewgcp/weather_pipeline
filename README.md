@@ -11,9 +11,7 @@ Not contained in CF template:
 3.	The S3 bucket and key are mentioned as parameters in CF template.
 4.	For the first time, Glue job needs to be created manually for csv creation. This stores script for the conversion in S3. Once script is stored in S3, the S3 buckets- raw and processed can be deleted. As these will be created in CF.
 
-Test1
-test2
-test3
+
 The Folder Infra contains CF template
 
 ** Glue job not getting triggered because of Python Version.
